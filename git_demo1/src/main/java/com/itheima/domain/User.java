@@ -6,7 +6,17 @@ public class User {
 	
 	private String password;
 	
+	private String birthday;
 	
+	
+
+	public String getBirthday() {
+		return birthday;
+	}
+
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
 
 	public String getPassword() {
 		return password;
